@@ -1,0 +1,14 @@
+{
+  "self": {
+    "ip": "10.0.20.113",
+    "net_name": "WLAN",
+    "port": 9996
+  },
+  "scheduling": {
+    "ip": [
+      "10.96.129.135"
+    ],
+    "task-port": 9995,
+    "heartbeat-port": 9992
+  }
+}
