@@ -2,9 +2,10 @@ import psutil
 import json
 import socket
 import time
+import codecs
 
 
-with open('config.json', 'r') as f:
+with codecs.open('config.json', 'r', 'utf-8') as f:
     config = json.load(f)
 scheduling_addrs=[]
 for ip in config['scheduling']['ip']:
