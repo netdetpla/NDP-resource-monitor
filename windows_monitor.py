@@ -36,7 +36,7 @@ def send():
         print(send_json)
         for in_scheduling_addr in scheduling_addrs:
             try:
-                sockfd.sendto(send_json, in_scheduling_addr)
+                sockfd.sendto(send_json.encode(), in_scheduling_addr)
                 break
             except Exception as e:
                 continue
