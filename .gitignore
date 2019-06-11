@@ -108,3 +108,4 @@ venv.bak/
 *.iws
 *.iml
 *.ipr
+config.json
